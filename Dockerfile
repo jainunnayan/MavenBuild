@@ -1,4 +1,4 @@
 FROM tomcat:8
 COPY target/java-example.war /usr/local/tomcat/
-EXPOSE 80800
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
